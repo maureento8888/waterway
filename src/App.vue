@@ -49,6 +49,6 @@ nav {
 h1 {
   display: flex;
   justify-content: center;
-  margin-top: 2em;
+  margin: 2em 2em;
 }
 </style>

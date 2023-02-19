@@ -2,7 +2,8 @@
   <main>
     <div class="card">
       <div class="card-container">
-        <p class="card-name">{{ name.name || name.aliases.toString() }}</p>
+        <p class="card-name">{{ countries.country }}</p>
+        <p class="card-caption">Disaster Type: Flash floods</p>
       </div>
     </div>
   </main>
@@ -11,7 +12,7 @@
 <script>
 export default {
   props: {
-    name: {
+    countries: {
       type: Object,
       required: true,
     },
@@ -42,5 +43,11 @@ main {
 }
 .card-container {
   height: 4em;
+}
+
+.card-caption {
+  padding-top: 1em;
+  font-size: 10pt;
+  color: #707070;
 }
 </style>
