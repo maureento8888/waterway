@@ -1,6 +1,6 @@
 <template>
   <main>
-    <p>This will contain our account and settings</p>
+    <h1>Account Settings</h1>
   </main>
 </template>
 

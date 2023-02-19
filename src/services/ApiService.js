@@ -1,5 +1,6 @@
 import axios from "axios";
 
+// https://api.reliefweb.int/v1/disasters?appname=apidoc&limit=5
 const apiClient = axios.create({
   baseURL: `https://anapioficeandfire.com/api/`,
   withCredentials: false,

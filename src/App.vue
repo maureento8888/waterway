@@ -1,16 +1,13 @@
 <template>
   <NavBar />
-  <CharacterCardView />
   <router-view />
 </template>
 
 <script lang="js">
-import CharacterCardView from '@/views/CharacterCardView.vue';
 import NavBar from "@/components/NavBar.vue";
 
 export default {
   components: {
-    CharacterCardView,
     NavBar,
   },
 };
@@ -22,6 +19,14 @@ html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0 0;
+}
+
 body {
   margin: 0;
   font-family: "Open Sans", sans-serif;
@@ -38,6 +43,12 @@ nav {
   justify-content: space-around;
   align-items: center;
   padding: 30px;
-  background: coral;
+  background: #526589;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 2em;
 }
 </style>

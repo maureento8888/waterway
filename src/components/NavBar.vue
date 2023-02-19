@@ -1,7 +1,7 @@
 <template>
   <nav id="nav" class="nav">
     <router-link to="/" class="link">Home </router-link>
-    <router-link to="/request" class="link">Request </router-link>
+    <router-link to="/provision-form" class="link">Provision Form </router-link>
     <router-link to="/account" class="link">Account </router-link>
   </nav>
 </template>
@@ -12,7 +12,7 @@ export default {};
 
 <style scoped>
 .link {
-  color: #526589;
+  color: white;
   font-weight: 600;
   background-color: transparent;
 }
